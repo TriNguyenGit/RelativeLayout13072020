@@ -7,49 +7,24 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:background="#D81111"
-        android:id="@+id/textviewRed"
-        android:text="Red"
+        android:layout_toLeftOf="@id/textview4"
+        android:layout_above="@id/textview4"
+        android:id="@+id/textview3"
+        android:text="3"
         android:textSize="30sp"
-        android:layout_alignLeft="@id/textviewblue"
-        android:layout_above="@id/textviewGreen"
+        android:background="#4CAF50"
+        android:padding="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <TextView
-        android:id="@+id/textviewGreen"
-        android:layout_alignLeft="@id/textviewblue"
-        android:layout_above="@id/textviewblue"
-        android:layout_width="wrap_content"
-        android:text="Green"
-        android:background="#458123"
-        android:textSize="30sp"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/textviewblue"
+        android:id="@+id/textview4"
         android:background="#135D85"
+        android:padding="30sp"
         android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Blue"
+        android:text="4"
         android:textSize="30sp"/>
-    <TextView
-        android:background="#FF5722"
-        android:layout_below="@id/textviewblue"
-        android:layout_alignLeft="@id/textviewblue"
-        android:textSize="30sp"
-        android:text="Orange"
-        android:id="@+id/textviewOrange"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:background="#E91E63"
-        android:layout_below="@id/textviewOrange"
-        android:layout_alignLeft="@id/textviewblue"
-        android:textSize="30sp"
-        android:text="Pink"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-//layout_alignLeft canh lề trái so với thằn làm chuẩn
-    //layout_below nằm bên dưới
-    //layout_above nằm bên trên
+
 </RelativeLayout>
